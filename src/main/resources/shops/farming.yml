@@ -1,0 +1,184 @@
+shop:
+  id: "farmers_market"
+  name: "&6&lFarmer's Market"
+  menu:
+    rows: 4
+    title: "&6&lFarmer's Market"
+
+items:
+  # --- PAGE 1: Crops & Seeds ---
+  # Row 2 (Slots 10 to 16)
+  wheat:
+    material: "WHEAT"
+    slot: 10
+    buy_price: 2.0
+    sell_price: 0.7
+    can_buy: true
+    can_sell: true
+
+  carrot:
+    material: "CARROT"
+    slot: 11
+    buy_price: 2.5
+    sell_price: 0.85
+
+  potato:
+    material: "POTATO"
+    slot: 12
+    buy_price: 2.5
+    sell_price: 0.85
+
+  beetroot:
+    material: "BEETROOT"
+    slot: 13
+    buy_price: 2.5
+    sell_price: 0.85
+
+  melon_slice:
+    material: "MELON_SLICE"
+    slot: 14
+    buy_price: 1.5
+    sell_price: 0.5
+
+  pumpkin:
+    material: "PUMPKIN"
+    slot: 15
+    buy_price: 5.0
+    sell_price: 1.5
+
+  sugar_cane:
+    material: "SUGAR_CANE"
+    slot: 16
+    buy_price: 3.0
+    sell_price: 1.0
+
+  # Row 3 (Slots 19 to 25)
+  wheat_seeds:
+    material: "WHEAT_SEEDS"
+    slot: 19
+    buy_price: 0.5
+    sell_price: 0.1
+
+  pumpkin_seeds:
+    material: "PUMPKIN_SEEDS"
+    slot: 20
+    buy_price: 1.5
+    sell_price: 0.5
+
+  melon_seeds:
+    material: "MELON_SEEDS"
+    slot: 21
+    buy_price: 1.5
+    sell_price: 0.5
+
+  apple:
+    material: "APPLE"
+    slot: 22
+    buy_price: 10.0
+    sell_price: 3.5
+
+  sweet_berries:
+    material: "SWEET_BERRIES"
+    slot: 23
+    buy_price: 2.0
+    sell_price: 0.6
+
+  cactus:
+    material: "CACTUS"
+    slot: 24
+    buy_price: 4.0
+    sell_price: 1.2
+
+  bamboo:
+    material: "BAMBOO"
+    slot: 25
+    buy_price: 2.0
+    sell_price: 0.5
+
+  # --- PAGE 2: Animal Products & Food ---
+  # Page 2 starts at index 36.
+  # Row 2 on Page 2: 36 + 10 to 36 + 16 (Slots 46 to 52)
+  egg:
+    material: "EGG"
+    slot: 46
+    buy_price: 5.0
+    sell_price: 1.5
+
+  milk_bucket:
+    material: "MILK_BUCKET"
+    slot: 47
+    buy_price: 20.0
+    sell_price: 5.0
+
+  white_wool:
+    material: "WHITE_WOOL"
+    slot: 48
+    buy_price: 6.0
+    sell_price: 2.0
+
+  leather:
+    material: "LEATHER"
+    slot: 49
+    buy_price: 15.0
+    sell_price: 5.0
+
+  honey_bottle:
+    material: "HONEY_BOTTLE"
+    slot: 50
+    buy_price: 25.0
+    sell_price: 8.0
+
+  feather:
+    material: "FEATHER"
+    slot: 51
+    buy_price: 2.0
+    sell_price: 0.5
+
+  bone:
+    material: "BONE"
+    slot: 52
+    buy_price: 4.0
+    sell_price: 1.5
+
+  # Row 3 on Page 2: 36 + 19 to 36 + 25 (Slots 55 to 61)
+  bread:
+    material: "BREAD"
+    slot: 55
+    buy_price: 10.0
+    sell_price: 3.0
+
+  cooked_beef:
+    material: "COOKED_BEEF"
+    slot: 56
+    buy_price: 25.0
+    sell_price: 8.0
+
+  cooked_porkchop:
+    material: "COOKED_PORKCHOP"
+    slot: 57
+    buy_price: 25.0
+    sell_price: 8.0
+
+  cooked_chicken:
+    material: "COOKED_CHICKEN"
+    slot: 58
+    buy_price: 20.0
+    sell_price: 6.0
+
+  golden_carrot:
+    material: "GOLDEN_CARROT"
+    slot: 59
+    buy_price: 50.0
+    sell_price: 15.0
+
+  golden_apple:
+    material: "GOLDEN_APPLE"
+    slot: 60
+    buy_price: 250.0
+    sell_price: 75.0
+
+  cake:
+    material: "CAKE"
+    slot: 61
+    buy_price: 100.0
+    sell_price: 30.0

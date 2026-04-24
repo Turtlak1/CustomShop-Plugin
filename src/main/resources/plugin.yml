@@ -1,0 +1,53 @@
+name: CustomShop
+version: '${version}'
+
+main: org.turtle.customShop.CustomShop
+api-version: '1.21.11'
+load: POSTWORLD
+softdepend: [Vault]
+
+authors: [ Turtle ]
+
+commands:
+  shop:
+    description: Main CustomShop command
+    usage: /shop <list|info|open|reload|restock|stock>
+  inflate:
+    description: Apply global inflation multipliers
+    usage: /inflate %change <sell_multiplier>
+  resetinflate:
+    description: Reset inflation multipliers to defaults
+    usage: /resetinflate
+  sell:
+    description: Sell items in your hand or inventory
+    usage: /sell <hand|inventory|all>
+
+permissions:
+  customshop.player.list:
+    default: true
+  customshop.player.info:
+    default: true
+  customshop.player.open:
+    default: true
+  customshop.shop.*:
+    default: true
+    description: "Allows opening all specific shops"
+  customshop.admin:
+    default: op
+    description: "Allows access to all shops and admin commands"
+  customshop.admin.list:
+    default: op
+  customshop.admin.info:
+    default: op
+  customshop.admin.open:
+    default: op
+  customshop.admin.reload:
+    default: op
+  customshop.admin.restock:
+    default: op
+  customshop.admin.stock:
+    default: op
+  customshop.admin.inflate:
+    default: op
+  customshop.admin.resetinflate:
+    default: op

@@ -1,0 +1,186 @@
+shop:
+  id: "building_blocks_shop"
+  name: "&8&lBuilding Blocks"
+  menu:
+    rows: 4
+    title: "&8&lBuilding Blocks"
+
+items:
+  # --- Page 1: Stone, Cobblestone, Dirt & Basics ---
+  # Row 2 (10 - 16)
+
+  stone:
+    material: "STONE"
+    slot: 10
+    buy_price: 2.0
+    sell_price: 0.5
+    can_buy: true
+    can_sell: true
+
+  smooth_stone:
+    material: "SMOOTH_STONE"
+    slot: 11
+    buy_price: 6.5
+    sell_price: 2.28
+
+  cobblestone:
+    material: "COBBLESTONE"
+    slot: 12
+    buy_price: 1.5
+    sell_price: 0.3
+
+  stone_bricks:
+    material: "STONE_BRICKS"
+    slot: 13
+    buy_price: 7.8
+    sell_price: 2.73
+
+  mossy_stone_bricks:
+    material: "MOSSY_STONE_BRICKS"
+    slot: 14
+    buy_price: 8.0
+    sell_price: 2.5
+
+  dirt:
+    material: "DIRT"
+    slot: 15
+    buy_price: 1.0
+    sell_price: 0.2
+
+  coarse_dirt:
+    material: "COARSE_DIRT"
+    slot: 16
+    buy_price: 1.5
+    sell_price: 0.3
+
+  # Row 3 (19 - 25)
+  granite:
+    material: "GRANITE"
+    slot: 19
+    buy_price: 3.5
+    sell_price: 1.0
+
+  diorite:
+    material: "DIORITE"
+    slot: 20
+    buy_price: 3.5
+    sell_price: 1.0
+
+  andesite:
+    material: "ANDESITE"
+    slot: 21
+    buy_price: 3.5
+    sell_price: 1.0
+
+  grass_block:
+    material: "GRASS_BLOCK"
+    slot: 22
+    buy_price: 5.0
+    sell_price: 1.0
+
+  gravel:
+    material: "GRAVEL"
+    slot: 23
+    buy_price: 2.0
+    sell_price: 0.5
+
+  sand:
+    material: "SAND"
+    slot: 24
+    buy_price: 2.0
+    sell_price: 0.5
+
+  glass:
+    material: "GLASS"
+    slot: 25
+    buy_price: 4.0
+    sell_price: 1.0
+
+  # --- Page 2: Concrete & Terracotta ---
+  # Page 2 starts index 36.
+  # Row 2 (46 - 52)
+
+  white_concrete:
+    material: "WHITE_CONCRETE"
+    slot: 46
+    buy_price: 13.0
+    sell_price: 4.55
+
+  gray_concrete:
+    material: "GRAY_CONCRETE"
+    slot: 47
+    buy_price: 13.0
+    sell_price: 4.55
+
+  black_concrete:
+    material: "BLACK_CONCRETE"
+    slot: 48
+    buy_price: 13.0
+    sell_price: 4.55
+
+  red_concrete:
+    material: "RED_CONCRETE"
+    slot: 49
+    buy_price: 13.0
+    sell_price: 4.55
+
+  blue_concrete:
+    material: "BLUE_CONCRETE"
+    slot: 50
+    buy_price: 13.0
+    sell_price: 4.55
+
+  yellow_concrete:
+    material: "YELLOW_CONCRETE"
+    slot: 51
+    buy_price: 13.0
+    sell_price: 4.55
+
+  green_concrete:
+    material: "GREEN_CONCRETE"
+    slot: 52
+    buy_price: 13.0
+    sell_price: 4.55
+
+  # Row 3 (55 - 61)
+  white_terracotta:
+    material: "WHITE_TERRACOTTA"
+    slot: 55
+    buy_price: 10.4
+    sell_price: 3.64
+
+  orange_terracotta:
+    material: "ORANGE_TERRACOTTA"
+    slot: 56
+    buy_price: 10.4
+    sell_price: 3.64
+
+  cyan_terracotta:
+    material: "CYAN_TERRACOTTA"
+    slot: 57
+    buy_price: 10.4
+    sell_price: 3.64
+
+  terracotta:
+    material: "TERRACOTTA"
+    slot: 58
+    buy_price: 8.0
+    sell_price: 2.5
+
+  red_terracotta:
+    material: "RED_TERRACOTTA"
+    slot: 59
+    buy_price: 10.4
+    sell_price: 3.64
+
+  blue_terracotta:
+    material: "BLUE_TERRACOTTA"
+    slot: 60
+    buy_price: 10.4
+    sell_price: 3.64
+
+  black_terracotta:
+    material: "BLACK_TERRACOTTA"
+    slot: 61
+    buy_price: 10.4
+    sell_price: 3.64

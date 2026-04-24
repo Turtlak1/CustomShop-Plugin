@@ -1,0 +1,43 @@
+shop:
+  id: "lumber_yard"
+  name: "&6&lLumber Yard"
+  menu:
+    rows: 3
+    items: ["oak_log", "spruce_log", "birch_log", "jungle_log", "acacia_log", "dark_oak_log", "cherry_log"]
+
+items:
+  oak_log:
+    material: "OAK_LOG"
+    slot: 10
+    buy_price: 6.5
+    sell_price: 2.28
+  spruce_log:
+    material: "SPRUCE_LOG"
+    slot: 11
+    buy_price: 6.5
+    sell_price: 2.28
+  birch_log:
+    material: "BIRCH_LOG"
+    slot: 12
+    buy_price: 6.5
+    sell_price: 2.28
+  jungle_log:
+    material: "JUNGLE_LOG"
+    slot: 13
+    buy_price: 7.15
+    sell_price: 2.5
+  acacia_log:
+    material: "ACACIA_LOG"
+    slot: 14
+    buy_price: 7.15
+    sell_price: 2.5
+  dark_oak_log:
+    material: "DARK_OAK_LOG"
+    slot: 15
+    buy_price: 7.15
+    sell_price: 2.5
+  cherry_log:
+    material: "CHERRY_LOG"
+    slot: 16
+    buy_price: 7.15
+    sell_price: 2.5

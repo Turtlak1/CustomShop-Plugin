@@ -1,0 +1,76 @@
+shop:
+  id: "redstone_shop"
+  name: "&4&lRedstone & Engineering"
+  description: "Wire, logic, and automation"
+  type: "GUI"
+  owner: "Admin"
+
+  menu:
+    type: "CHEST"
+    rows: 3
+    title: "&4&lRedstone Shop"
+    items:
+      - "redstone_dust"
+      - "redstone_torch"
+      - "repeater"
+      - "comparator"
+      - "piston"
+      - "sticky_piston"
+      - "observer"
+
+items:
+  redstone_dust:
+    material: "REDSTONE"
+    display_name: "&cRedstone Dust"
+    slot: 10
+    buy_price: 20.5
+    sell_price: 4.28
+    initial_stock: 512
+
+  redstone_torch:
+    material: "REDSTONE_TORCH"
+    display_name: "&cRedstone Torch"
+    slot: 11
+    buy_price: 30.4
+    sell_price: 7.64
+    initial_stock: 128
+
+  repeater:
+    material: "REPEATER"
+    display_name: "&fRedstone Repeater"
+    slot: 12
+    buy_price: 57.54
+    sell_price: 17.1
+    initial_stock: 64
+
+  comparator:
+    material: "COMPARATOR"
+    display_name: "&fRedstone Comparator"
+    slot: 13
+    buy_price: 64.5
+    sell_price: 23.65
+    initial_stock: 64
+
+  piston:
+    material: "PISTON"
+    display_name: "&7Piston"
+    slot: 14
+    buy_price: 200.5
+    sell_price: 46.93
+    initial_stock: 64
+
+  sticky_piston:
+    material: "STICKY_PISTON"
+    display_name: "&aSticky Piston"
+    slot: 15
+    buy_price: 230.0
+    sell_price: 50.75
+    initial_stock: 64
+
+  observer:
+    material: "OBSERVER"
+    display_name: "&8Observer"
+    slot: 16
+    buy_price: 400.5
+    sell_price: 90.48
+    initial_stock: 64

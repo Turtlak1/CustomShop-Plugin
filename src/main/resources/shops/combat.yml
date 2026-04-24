@@ -1,0 +1,43 @@
+shop:
+  id: "combat_supplies"
+  name: "&4&lCombat Utility"
+  menu:
+    rows: 3
+    items: ["ender_pearl", "blaze_rod", "obsidian", "end_crystal", "totem_of_undying", "respawn_anchor", "glowstone"]
+
+items:
+  ender_pearl:
+    material: "ENDER_PEARL"
+    slot: 10
+    buy_price: 200.0
+    sell_price: 75.5
+  blaze_rod:
+    material: "BLAZE_ROD"
+    slot: 11
+    buy_price: 65.0
+    sell_price: 22.75
+  obsidian:
+    material: "OBSIDIAN"
+    slot: 12
+    buy_price: 52.0
+    sell_price: 18.2
+  end_crystal:
+    material: "END_CRYSTAL"
+    slot: 13
+    buy_price: 1500.0
+    sell_price: 550.75
+  totem_of_undying:
+    material: "TOTEM_OF_UNDYING"
+    slot: 14
+    buy_price: 6500.0
+    sell_price: 2275.0
+  respawn_anchor:
+    material: "RESPAWN_ANCHOR"
+    slot: 15
+    buy_price: 1300.0
+    sell_price: 455.0
+  glowstone:
+    material: "GLOWSTONE"
+    slot: 16
+    buy_price: 26.0
+    sell_price: 9.1
