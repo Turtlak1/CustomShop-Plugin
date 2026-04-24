@@ -1,0 +1,89 @@
+plugin:
+  name: "CustomShop"
+  version: "1.0.0"
+
+server:
+  currency_symbol: "$"
+  currency_name: "Coins"
+  decimal_places: 2
+
+shops:
+  - "blocks"
+  - "farming"
+  - "ores"
+  - "combat"
+  - "spawners"
+  - "redstone"
+  - "lumber"
+
+main_menu:
+  title: "&8Server Shops"
+  rows: 3
+  items:
+    10:
+      shop: "blocks"
+      material: "STONE"
+      name: "&eBlocks"
+      lore:
+        - "&7Buy and sell building blocks"
+    11:
+      shop: "farming"
+      material: "WHEAT"
+      name: "&eFarming"
+      lore:
+        - "&7Buy and sell crops and food"
+    12:
+      shop: "lumber"
+      material: "OAK_LOG"
+      name: "&6Lumber"
+      lore:
+        - "&7Buy and sell different types of wood"
+    13:
+      shop: "spawners"
+      material: "SPAWNER"
+      name: "&dSpawners"
+      lore:
+        - "&7Buy and sell mob spawners"
+    14:
+      shop: "redstone"
+      material: "REDSTONE"
+      name: "&cRedstone"
+      lore:
+        - "&7Buy and sell redstone components"
+    15:
+      shop: "ores"
+      material: "DIAMOND"
+      name: "&bOres"
+      lore:
+        - "&7Buy and sell valuable ores"
+    16:
+      shop: "combat"
+      material: "DIAMOND_SWORD"
+      name: "&cCombat"
+      lore:
+        - "&7Buy and sell weapons and armor"
+
+restocking:
+  enabled: true
+  global_interval: 3600
+  auto_start: true
+  broadcast_message: "&6[CustomShop] &eAll shops have been restocked!"
+
+inflation:
+  enabled: true
+  dynamic_pricing: true
+  buy_multiplier: 1.0
+  sell_multiplier: 0.40
+  track_per_shop: false
+  decrease_interval_seconds: 30
+
+economy:
+  local_ledger_starting_balance: 1000.0
+
+messages:
+  shop_opened: "&6Shop opened: &e{shop_name}"
+  insufficient_funds: "&cYou do not have enough money!"
+  item_purchased: "&aYou purchased &e{amount}x {item} &afor &e{price}"
+  item_sold: "&aYou sold &e{amount}x {item} &afor &e{price}"
+  out_of_stock: "&cThis item is out of stock!"
+  stock_low: "&eWarning: only {quantity} left in stock!"

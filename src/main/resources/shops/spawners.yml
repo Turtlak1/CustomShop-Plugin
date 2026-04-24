@@ -1,0 +1,90 @@
+shop:
+  id: "spawner_shop"
+  name: "&8&lMob Spawners"
+  description: "Automate your resource collection"
+  type: "GUI"
+  owner: "Admin"
+
+  menu:
+    type: "CHEST"
+    rows: 3
+    title: "&8&lMob Spawners"
+    items:
+      - "pig_spawner"
+      - "cow_spawner"
+      - "zombie_spawner"
+      - "skeleton_spawner"
+      - "spider_spawner"
+      - "blaze_spawner"
+      - "iron_golem_spawner"
+
+items:
+  pig_spawner:
+    material: "SPAWNER"
+    entity_type: "PIG"
+    display_name: "&dPig Spawner"
+    slot: 10
+    buy_price: 13000.0
+    sell_price: 4550.0
+    initial_stock: 10
+    max_stack: 1
+
+  cow_spawner:
+    material: "SPAWNER"
+    entity_type: "COW"
+    display_name: "&fCow Spawner"
+    slot: 11
+    buy_price: 19500.0
+    sell_price: 6825.0
+    initial_stock: 10
+    max_stack: 1
+
+  zombie_spawner:
+    material: "SPAWNER"
+    entity_type: "ZOMBIE"
+    display_name: "&2Zombie Spawner"
+    slot: 12
+    buy_price: 26000.0
+    sell_price: 9100.0
+    initial_stock: 5
+    max_stack: 1
+
+  skeleton_spawner:
+    material: "SPAWNER"
+    entity_type: "SKELETON"
+    display_name: "&7Skeleton Spawner"
+    slot: 13
+    buy_price: 32500.0
+    sell_price: 11375.0
+    initial_stock: 5
+    max_stack: 1
+
+  spider_spawner:
+    material: "SPAWNER"
+    entity_type: "SPIDER"
+    display_name: "&cSpider Spawner"
+    slot: 14
+    buy_price: 26000.0
+    sell_price: 9100.0
+    initial_stock: 5
+    max_stack: 1
+
+  blaze_spawner:
+    material: "SPAWNER"
+    entity_type: "BLAZE"
+    display_name: "&eBlaze Spawner"
+    slot: 15
+    buy_price: 65000.0
+    sell_price: 22750.0
+    initial_stock: 3
+    max_stack: 1
+
+  iron_golem_spawner:
+    material: "SPAWNER"
+    entity_type: "IRON_GOLEM"
+    display_name: "&fIron Golem Spawner"
+    slot: 16
+    buy_price: 130000.0
+    sell_price: 45500.0
+    initial_stock: 2
+    max_stack: 1
